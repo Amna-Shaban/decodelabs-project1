@@ -1,31 +1,25 @@
-# DecodeLabs Project 1: Smart Inventory & Order Queue System
+# decodelabs-project1
 
-A lightweight, high-performance web API built with Python and Flask. This system serves as a backend solution designed to manage product data, track inventory levels, and handle sequential order queues efficiently.
+A stateless web server built with Python and Flask designed to serve structured data efficiently over HTTP. 
 
 ## 🚀 Features
-* **Product Management**: Clean RESTful endpoints to query and view live product details.
-* **Order Queue Processing**: Handles sequential data logic for modern queue management.
-* **JSON API Architecture**: Fully formatted JSON responses designed for seamless frontend integration.
+* **Stateless Architecture**: Every request is independent and contains all the information needed to serve the data.
+* **Data Serving Endpoints**: Clean RESTful routes designed to deliver structured JSON payloads.
+* **Lightweight Backend**: Built with a minimal footprint for rapid execution and quick response times.
 
 ---
 
 ## 🛠️ Tech Stack
 * **Language**: Python 3.x
 * **Framework**: Flask
-* **Development Environment**: VS Code / Windows PowerShell
 
 ---
 
-## 📦 Local Setup & Installation
+## 🔌 API Endpoints
+* **GET** `/` - Returns the base API status.
+* **GET** `/products` - Fetches and serves the structured product dataset.
 
-To run this backend project on your own machine, follow these simple steps:
+---
 
-### 1. Clone the Project
-Open your terminal or PowerShell and run:
-```bash
-git clone [https://github.com/Amna-Shaban/decodelabs-project1.git](https://github.com/Amna-Shaban/decodelabs-project1.git)
-cd decodelabs-project1
-pip install flask
-python app.py
-👥 Authors
-Amna Shaban - Lead Software Engineering Student
+## 👥 Authors
+* **Aamna Shaban** - Lead Software Engineering Student
